@@ -216,9 +216,9 @@ def move_player(ev):
 
     if ev.type == pygame.KEYDOWN:
         if pygame.key.name(ev.key) == "down":
-            dy_player = 4
+            dy_player = 3
         elif pygame.key.name(ev.key) == "up":
-            dy_player = -4
+            dy_player = -3
 
     if ev.type == pygame.KEYUP:
         if pygame.key.name(ev.key) == "down" or pygame.key.name(ev.key) == "up":
